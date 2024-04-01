@@ -5,3 +5,9 @@ header>h1{
 .main-container {
     display: flex;
 }
+
+.form,
+.result {
+    background-color: red;
+    width: 100%;
+}
