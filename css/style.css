@@ -1,5 +1,6 @@
-header>h1{
+header>h1 {
     text-align: center;
+    background-color: blue;
 }
 
 .main-container {
@@ -8,6 +9,7 @@ header>h1{
 
 .form,
 .result {
-    background-color: red;
+    border: 1px solid;
     width: 100%;
+    background-color: aqua;
 }
