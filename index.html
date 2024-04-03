@@ -11,21 +11,30 @@
     </header>
     <main>
         <div class="main-container">
+           <!-- Form Display -->
             <div class="container-item">
                 <h2>Form BMI</h2>
-                <p>Berat Badan ideal adalah </p>
+                <p>Berat Badan ideal adalah impian semua orang. Tidak Hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?Yuk, hitung sekarang di kalkulator BMI. </p>
                 <section class="container-form">
                     <div>
                         <label>Jenis Kelamin</label><br />
-                        <input type="radio" id="sex-man"><label for="sex-man">Laki-Laki</label>
-                        <input type="radio" id="sex-woman"><label for="sex-woman">Perempuan</label>
+                        <input type="radio" name="sex" id="sex-man">
+                        <label for="sex-man">Laki-Laki</label>
+                        <input type="radio" name="sex" id="sex-woman">
+                        <label for="sex-woman">Perempuan</label>
                     </div>
                     <div>
                         <label for="Berat Badan (Kg)"></label><br/>
-                        <input type="number">
+                        <input type="number" class="form-item">
+                    </div>
+                    <div>
+                        <button type="button" id="Calculate-button">Hitung BMI</button>
+                        <button type="button">Reset</button>
                     </div>
                 </section>
             </div>
+
+            <!-- Result Display -->
             <div class="container-item">
                 <h2>Result</h2>
                 <section class="container-result">
@@ -36,6 +45,7 @@
                 </section>
             </div>
         </div>
+    </main>
     </main>
     <footer></footer>
     <script src="js/script.js"></script>
