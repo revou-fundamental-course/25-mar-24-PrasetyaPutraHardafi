@@ -1,64 +1,102 @@
-header>h1 {
+@media only screen and (max-width:480px){
+    .main-container{
+        flex-direction: column;
+    }
+}
+
+header>h1{
     text-align: center;
 }
 
-.main-container {
+.main-container{
     display: flex;
 }
 
 /* Display Style */
-.container-item {
+.container-item{
     width: 100%;
     padding: 24px;
 }
 
-.container-item>h2 {
+.container-item > h2{
     text-align: center;
 }
 
-.container-result {
+.container-result{
     text-align: center;
     background-color: aliceblue;
-    padding top: 8px;
+    padding-top: 8px;
     padding-bottom: 24px;
 }
 
-.container-form {
+.container-form{
     text-align: left;
     background-color: aliceblue;
     padding: 24px;
 }
 
-.container-form>div {
-    padding: 8px;
+.container-form > div{
+    padding: 4px;
 }
 
-.form-item {
-    height: 20px;
-    border: 0px;
+.form-item{
+    height: 24px;
+    border: none;
     border-radius: 8px;
-    background-color: lightgrey;
-    padding: 2px;
+    background-color: white;
 }
 
-button {
-    border: 0px;
+button{
     height: 32px;
     padding-right: 24px;
     padding-left: 24px;
-    background-color: white;
+    border: none;
+    background-color: aquamarine;
     border-radius: 8px;
 }
 
-#Calculate-button {
-    
-    background-color: coral;
-    color: white;
+button:hover{
+    background-color: lightslategrey;
+    color: black;
+    font-weight: bolder;
 }
 
-@media  only screen and (max-width: 480px) {
-    .main-container {
-    flex-direction: column;
-    }
+#button{
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 8px;
 }
-    
+
+#button:hover{
+    background-color: lightslategrey;
+    color: black;
+    font-weight: bolder;
+}
+#calculate-button{
+    background-color: aquamarine;
+}
+
+#calculate-button:hover{
+    background-color: lightslategrey;
+    color:black;
+    font-weight: bolder;
+}
+
+#reset-button{
+    background-color: lightsteelblue;
+}
+
+#reset-button:hover{
+    background-color: lightslategray;
+    color:black;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
